@@ -5,8 +5,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
-import org.junit.After;
-import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -17,7 +15,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class EmptyTest {
 
-	@Before
 	public void setUp() throws Exception {
 		System.out.println("Before");
 	}
@@ -87,7 +84,7 @@ public class EmptyTest {
 			return false;
 		}
 	}
-	@After
+
 	public void tearDown() throws Exception {
 	//	System.out.println("After");
 	}
