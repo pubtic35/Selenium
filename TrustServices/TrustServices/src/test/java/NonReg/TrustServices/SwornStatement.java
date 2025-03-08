@@ -7,7 +7,7 @@ import org.testng.annotations.AfterTest;
 public class SwornStatement {
   @Test
   public void f() {
-	  System.out.println("new test");
+	  System.out.println("new test 1");
   }
   @BeforeTest
   public void beforeTest() {
